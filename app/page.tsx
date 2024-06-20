@@ -56,7 +56,7 @@ export default function Home() {
         </div>
         <div className='py-10'>
           <p className={`text-4xl ${neuton.className}`}>Would you recommend Trausti?</p>
-          <p className={`text-gray-400 my-3 ${nunito.className}`}>{`Your opinion won't be posted publicly.`}</p>
+          <p className={`text-gray-400 my-3 ${nunito.className}`}>Your opinion won&apos;t be posted publicly.</p>
           <Likedislike />
         </div>
         <div className="py-10">
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
         <div className="py-10">
           <p className={`text-4xl ${neuton.className}`}>Care to share more?</p>
-          <p className={`text-gray-400 my-3 ${nunito.className}`}>{`How was your overall experience? What's that one thing you won't forget Trausti for?`}</p>
+          <p className={`text-gray-400 my-3 ${nunito.className}`}>How was your overall experience? What&apos;s that one thing you won&apos;t forget Trausti for?</p>
           <textarea placeholder="Come on, you know the drill." rows={8} className={`outline-none border-[1px] border-gray-300 mt-3 w-full rounded-lg p-2 ${nunito.className}`} />
         </div>
       </div>
